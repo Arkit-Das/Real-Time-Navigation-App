@@ -1,16 +1,9 @@
-# navigate
+## 🛠️ Setup Instructions for Contributors
 
-A new Flutter project.
+To get the map working, you need to set up your environment variables:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Create a file named `.env` in the root directory.
+2. Get a free API key from [MapTiler](https://cloud.maptiler.com/).
+3. Add your key to the `.env` file like this:
+   `MAPTILER_KEY=your_actual_key_here`
+4. Run `flutter pub get` and then `flutter run`.
